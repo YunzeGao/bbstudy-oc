@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface BaseViewController : UIViewController
+@interface BBViewController : UIViewController
 
 @end

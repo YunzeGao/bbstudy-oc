@@ -4,10 +4,21 @@ package(default_visibility = ["//visibility:public"])
 ios_application(
     name = "bbstudy",
     bundle_id = "bbstudy",
+    launch_storyboard = "bbstudy/Launch Screen.storyboard",
     families = [
         "iphone",
     ],
     minimum_os_version = "14.0",
-    infoplists = ["Info.plist"],
-    # deps = ["ios-app-bin"],
+    infoplists = ["bbstudy/Info.plist"],
+    deps = ["ios-app-bin"],
+)
+
+objc_library(
+    name = "ios-app-bin",
+    srcs = glob([
+         "bbstudy/*.m",
+    ]),
+    hdrs = glob([
+        "bbstudy/*.h",
+    ]),
 )

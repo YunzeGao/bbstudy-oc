@@ -13,8 +13,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     BBViewController *rootVC = [[BBViewController alloc] init];
     UINavigationController *rootNC = [[UINavigationController alloc] initWithRootViewController:rootVC];
-    [window setRootViewController:rootNC];
-    [window makeKeyAndVisible];
+    [self.window setRootViewController:rootNC];
+    [self.window makeKeyAndVisible];
     // #if DEBUG
     //     NSBundle *injectionBundle = [NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"];
     //     [injectionBundle load];
