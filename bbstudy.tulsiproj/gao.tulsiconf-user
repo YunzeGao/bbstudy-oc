@@ -1,0 +1,10 @@
+{
+  "optionSet" : {
+    "BazelPath" : {
+      "p" : "/Users/gao/Desktop/worker/loktar/bin/bazel/5.0.0/bazel-5.0.0-darwin-x86_64-py3"
+    },
+    "WorkspaceRootPath" : {
+      "p" : "/Users/gao/Desktop/bazel_study/bbstudy"
+    }
+  }
+}

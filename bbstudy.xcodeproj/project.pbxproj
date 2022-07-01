@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0D1DB1140E1BD300000000 /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4140E1BD300000000 /* BBViewController.m */; };
+		2E0D1DB1233F1FAD00000000 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4233F1FAD00000000 /* MASLayoutConstraint.m */; };
+		2E0D1DB15D6DAF0F00000000 /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A45D6DAF0F00000000 /* BBAppDelegate.m */; };
+		2E0D1DB17C310E9D00000000 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A47C310E9D00000000 /* MASCompositeConstraint.m */; };
+		2E0D1DB180D36E9900000000 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A480D36E9900000000 /* View+MASAdditions.m */; };
+		2E0D1DB19ABF52BF00000000 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A49ABF52BF00000000 /* NSArray+MASAdditions.m */; };
+		2E0D1DB1B0B3D01000000000 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4B0B3D01000000000 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2E0D1DB1B69EB4FA00000000 /* BBLauncherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4B69EB4FA00000000 /* BBLauncherManager.m */; };
+		2E0D1DB1BC8F924500000000 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4BC8F924500000000 /* MASConstraintMaker.m */; };
+		2E0D1DB1C2D2B8DD00000000 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4C2D2B8DD00000000 /* MASViewAttribute.m */; };
+		2E0D1DB1D09709B700000000 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4D09709B700000000 /* ViewController+MASAdditions.m */; };
+		2E0D1DB1D817367700000000 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4D817367700000000 /* MASConstraint.m */; };
+		2E0D1DB1E7DBD1DE00000000 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4E7DBD1DE00000000 /* MASViewConstraint.m */; };
+		2E0D1DB1EB7A82F800000000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4EB7A82F800000000 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E404EC3ACDC150100000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B34FBF0CF15885700000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F302C8ACDC150000000000;
+		};
+		3E404EC3DF13914900000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B34FBF0CF15885700000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45A4BB4DF13914800000000;
+		};
+		3E404EC3FBFC777700000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B34FBF0CF15885700000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45A4BB4FBFC777600000000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA7E46A4010C1AD200000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = bbstudy/Info.plist; sourceTree = "<group>"; };
+		CA7E46A404C877DD00000000 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "srcs/base/Masonry/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		CA7E46A40C563DA900000000 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = srcs/base/Masonry/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		CA7E46A40F62D67F00000000 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = srcs/base/Masonry/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		CA7E46A4140E1BD300000000 /* BBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBViewController.m; path = srcs/app/BBLancher/BBLancher/BBViewController.m; sourceTree = "<group>"; };
+		CA7E46A4144B4F5C00000000 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "srcs/base/Masonry/Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CA7E46A4233F1FAD00000000 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = srcs/base/Masonry/Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CA7E46A4296C15D100000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = srcs/base/BFC/BFCNetwork/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		CA7E46A42D39F06600000000 /* bbstudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = bbstudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7E46A42F4AE51D00000000 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "bbstudy/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CA7E46A4387F466600000000 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "srcs/base/Masonry/Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		CA7E46A4436FB49200000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = srcs/app/BBLancher/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		CA7E46A448D2EDB700000000 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "srcs/base/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		CA7E46A44C3E91C700000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "bbstudy.xcodeproj/.tulsi/tulsi-execution-root/bazel-tulsi-includes/x/x/bbstudy-intermediates/Info.plist"; sourceTree = SOURCE_ROOT; };
+		CA7E46A4529CFB4300000000 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = srcs/base/Masonry/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		CA7E46A453105E2200000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = srcs/base/BFC/BFCUtils/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		CA7E46A456064F5E00000000 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "srcs/base/Masonry/Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		CA7E46A4565D65CE00000000 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "srcs/base/Masonry/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CA7E46A45D6DAF0F00000000 /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBAppDelegate.m; path = bbstudy/BBAppDelegate.m; sourceTree = "<group>"; };
+		CA7E46A46174513300000000 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = srcs/base/Masonry/Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		CA7E46A46A556F4800000000 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = srcs/base/Masonry/Masonry/Masonry.h; sourceTree = "<group>"; };
+		CA7E46A46CBC112200000000 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "srcs/base/Masonry/Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CA7E46A46DD2F85800000000 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = srcs/base/Masonry/Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		CA7E46A47284E3BA00000000 /* BBLauncherManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBLauncherManager.h; path = srcs/app/BBLancher/include/BBLancher/BBLauncherManager.h; sourceTree = "<group>"; };
+		CA7E46A47C310E9D00000000 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = srcs/base/Masonry/Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		CA7E46A480D36E9900000000 /* View+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "srcs/base/Masonry/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		CA7E46A4866288A100000000 /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBAppDelegate.h; path = bbstudy/BBAppDelegate.h; sourceTree = "<group>"; };
+		CA7E46A48789BE9900000000 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = srcs/base/Masonry/Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CA7E46A497765C5000000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = "bbstudy.xcodeproj/.tulsi/tulsi-execution-root//BUILD"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		CA7E46A497C5A47F00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = srcs/base/Masonry/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		CA7E46A49ABF52BF00000000 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "srcs/base/Masonry/Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		CA7E46A49C3380D000000000 /* lib_idx_Masonry_library_47E1CC18_ios_min14.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_Masonry_library_47E1CC18_ios_min14.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7E46A4A69023DE00000000 /* lib_idx_ios-app-bin_66EA071C_ios_min14.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "lib_idx_ios-app-bin_66EA071C_ios_min14.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7E46A4B0B3D01000000000 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "srcs/base/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		CA7E46A4B69EB4FA00000000 /* BBLauncherManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBLauncherManager.m; path = srcs/app/BBLancher/BBLancher/BBLauncherManager.m; sourceTree = "<group>"; };
+		CA7E46A4BB07384400000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = srcs/base/BFC/BFCMeesageCenter/BUILD; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		CA7E46A4BC8F924500000000 /* MASConstraintMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = srcs/base/Masonry/Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		CA7E46A4BF88EB7400000000 /* lib_idx_bb_lancher_library_9EE8A124_ios_min14.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_bb_lancher_library_9EE8A124_ios_min14.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7E46A4C2D2B8DD00000000 /* MASViewAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = srcs/base/Masonry/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		CA7E46A4D09709B700000000 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "srcs/base/Masonry/Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		CA7E46A4D817367700000000 /* MASConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = srcs/base/Masonry/Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		CA7E46A4E5B3251B00000000 /* BBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBViewController.h; path = srcs/app/BBLancher/BBLancher/BBViewController.h; sourceTree = "<group>"; };
+		CA7E46A4E7DBD1DE00000000 /* MASViewConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = srcs/base/Masonry/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		CA7E46A4EA50CD6600000000 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = srcs/base/Masonry/Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		CA7E46A4EB7A82F800000000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bbstudy/main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6BA0FD170187069200000000 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD17E3D9AC3A00000000 /* BFC */,
+				6BA0FD172077FBEC00000000 /* Masonry */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		6BA0FD17145282AF00000000 /* BFCMeesageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A4BB07384400000000 /* BUILD */,
+			);
+			name = BFCMeesageCenter;
+			sourceTree = "<group>";
+		};
+		6BA0FD172077FBEC00000000 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A497C5A47F00000000 /* BUILD */,
+				6BA0FD172077FBEC00000001 /* Masonry */,
+			);
+			name = Masonry;
+			sourceTree = "<group>";
+		};
+		6BA0FD172077FBEC00000001 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A4529CFB4300000000 /* MASCompositeConstraint.h */,
+				CA7E46A47C310E9D00000000 /* MASCompositeConstraint.m */,
+				CA7E46A456064F5E00000000 /* MASConstraint+Private.h */,
+				CA7E46A4EA50CD6600000000 /* MASConstraint.h */,
+				CA7E46A4D817367700000000 /* MASConstraint.m */,
+				CA7E46A40C563DA900000000 /* MASConstraintMaker.h */,
+				CA7E46A4BC8F924500000000 /* MASConstraintMaker.m */,
+				CA7E46A48789BE9900000000 /* MASLayoutConstraint.h */,
+				CA7E46A4233F1FAD00000000 /* MASLayoutConstraint.m */,
+				CA7E46A46174513300000000 /* MASUtilities.h */,
+				CA7E46A40F62D67F00000000 /* MASViewAttribute.h */,
+				CA7E46A4C2D2B8DD00000000 /* MASViewAttribute.m */,
+				CA7E46A46DD2F85800000000 /* MASViewConstraint.h */,
+				CA7E46A4E7DBD1DE00000000 /* MASViewConstraint.m */,
+				CA7E46A46A556F4800000000 /* Masonry.h */,
+				CA7E46A404C877DD00000000 /* NSArray+MASAdditions.h */,
+				CA7E46A49ABF52BF00000000 /* NSArray+MASAdditions.m */,
+				CA7E46A4565D65CE00000000 /* NSArray+MASShorthandAdditions.h */,
+				CA7E46A448D2EDB700000000 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				CA7E46A4B0B3D01000000000 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CA7E46A4387F466600000000 /* View+MASAdditions.h */,
+				CA7E46A480D36E9900000000 /* View+MASAdditions.m */,
+				CA7E46A46CBC112200000000 /* View+MASShorthandAdditions.h */,
+				CA7E46A4144B4F5C00000000 /* ViewController+MASAdditions.h */,
+				CA7E46A4D09709B700000000 /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			sourceTree = "<group>";
+		};
+		6BA0FD17214D4FAC00000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD17703B2A2F00000000 /* Indexer */,
+				6BA0FD17F504BFDA00000000 /* bazel-tulsi-includes */,
+				CA7E46A42D39F06600000000 /* bbstudy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA0FD173157717F00000000 /* BFCNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A4296C15D100000000 /* BUILD */,
+			);
+			name = BFCNetwork;
+			sourceTree = "<group>";
+		};
+		6BA0FD173426665300000000 /* BBLancher */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD173426665300000001 /* BBLancher */,
+				CA7E46A4436FB49200000000 /* BUILD */,
+				6BA0FD1734B2189400000000 /* include */,
+			);
+			name = BBLancher;
+			sourceTree = "<group>";
+		};
+		6BA0FD173426665300000001 /* BBLancher */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A4B69EB4FA00000000 /* BBLauncherManager.m */,
+				CA7E46A4E5B3251B00000000 /* BBViewController.h */,
+				CA7E46A4140E1BD300000000 /* BBViewController.m */,
+			);
+			name = BBLancher;
+			sourceTree = "<group>";
+		};
+		6BA0FD173426665300000002 /* BBLancher */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A47284E3BA00000000 /* BBLauncherManager.h */,
+			);
+			name = BBLancher;
+			sourceTree = "<group>";
+		};
+		6BA0FD1734B2189400000000 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD173426665300000002 /* BBLancher */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		6BA0FD173E0F5C6800000000 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD173E0F5C6800000001 /* x */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		6BA0FD173E0F5C6800000001 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD179D65159400000000 /* bbstudy-intermediates */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		6BA0FD1756D555A600000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD17F737AAA200000000 /* / */,
+				6BA0FD17214D4FAC00000000 /* Products */,
+				6BA0FD17CF15885700000000 /* bbstudy */,
+				6BA0FD17A87DAB1F00000000 /* srcs */,
+			);
+			name = mainGroup;
+			sourceTree = SOURCE_ROOT;
+		};
+		6BA0FD175B1188D400000000 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD173426665300000000 /* BBLancher */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		6BA0FD17703B2A2F00000000 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A49C3380D000000000 /* lib_idx_Masonry_library_47E1CC18_ios_min14.0.a */,
+				CA7E46A4BF88EB7400000000 /* lib_idx_bb_lancher_library_9EE8A124_ios_min14.0.a */,
+				CA7E46A4A69023DE00000000 /* lib_idx_ios-app-bin_66EA071C_ios_min14.0.a */,
+			);
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		6BA0FD179D65159400000000 /* bbstudy-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A44C3E91C700000000 /* Info.plist */,
+			);
+			name = "bbstudy-intermediates";
+			sourceTree = "<group>";
+		};
+		6BA0FD17A87DAB1F00000000 /* srcs */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD175B1188D400000000 /* app */,
+				6BA0FD170187069200000000 /* base */,
+			);
+			name = srcs;
+			sourceTree = "<group>";
+		};
+		6BA0FD17CF15885700000000 /* bbstudy */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A4866288A100000000 /* BBAppDelegate.h */,
+				CA7E46A45D6DAF0F00000000 /* BBAppDelegate.m */,
+				CA7E46A4010C1AD200000000 /* Info.plist */,
+				CA7E46A42F4AE51D00000000 /* Launch Screen.storyboard */,
+				CA7E46A4EB7A82F800000000 /* main.m */,
+			);
+			name = bbstudy;
+			sourceTree = "<group>";
+		};
+		6BA0FD17E3D9AC3A00000000 /* BFC */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD17145282AF00000000 /* BFCMeesageCenter */,
+				6BA0FD173157717F00000000 /* BFCNetwork */,
+				6BA0FD17ED9556D000000000 /* BFCUtils */,
+			);
+			name = BFC;
+			sourceTree = "<group>";
+		};
+		6BA0FD17ED9556D000000000 /* BFCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A453105E2200000000 /* BUILD */,
+			);
+			name = BFCUtils;
+			sourceTree = "<group>";
+		};
+		6BA0FD17F504BFDA00000000 /* bazel-tulsi-includes */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0FD173E0F5C6800000000 /* x */,
+			);
+			name = "bazel-tulsi-includes";
+			sourceTree = "<group>";
+		};
+		6BA0FD17F737AAA200000000 /* / */ = {
+			isa = PBXGroup;
+			children = (
+				CA7E46A497765C5000000000 /* BUILD */,
+			);
+			name = /;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D1F302C8ACDC150000000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/Users/gao/Desktop/worker/loktar/bin/bazel/5.0.0/bazel-5.0.0-darwin-x86_64-py3\" \"bazel-bin\"";
+			buildConfigurationList = 79203607BACF556700000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		F45A4BB41DF76B1E00000000 /* _idx_ios-app-bin_66EA071C_ios_min14.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792036071DA77BEB00000000 /* Build configuration list for PBXNativeTarget "_idx_ios-app-bin_66EA071C_ios_min14.0" */;
+			buildPhases = (
+				594C46540000000000000002 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A98C2AACDC150100000000 /* PBXTargetDependency */,
+				32A98C2AFBFC777700000000 /* PBXTargetDependency */,
+			);
+			name = "_idx_ios-app-bin_66EA071C_ios_min14.0";
+			productName = "_idx_ios-app-bin_66EA071C_ios_min14.0";
+			productReference = CA7E46A4A69023DE00000000 /* lib_idx_ios-app-bin_66EA071C_ios_min14.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F45A4BB49E2B10AE00000000 /* bbstudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79203607261D8D9F00000000 /* Build configuration list for PBXNativeTarget "bbstudy" */;
+			buildPhases = (
+				2DDE5DE8E6097D7D00000000 /* build //:bbstudy */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A98C2AACDC150100000000 /* PBXTargetDependency */,
+			);
+			name = bbstudy;
+			productName = bbstudy;
+			productReference = CA7E46A42D39F06600000000 /* bbstudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45A4BB4DF13914800000000 /* _idx_Masonry_library_47E1CC18_ios_min14.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792036074D4859C800000000 /* Build configuration list for PBXNativeTarget "_idx_Masonry_library_47E1CC18_ios_min14.0" */;
+			buildPhases = (
+				594C46540000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A98C2AACDC150100000000 /* PBXTargetDependency */,
+			);
+			name = _idx_Masonry_library_47E1CC18_ios_min14.0;
+			productName = _idx_Masonry_library_47E1CC18_ios_min14.0;
+			productReference = CA7E46A49C3380D000000000 /* lib_idx_Masonry_library_47E1CC18_ios_min14.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F45A4BB4FBFC777600000000 /* _idx_bb_lancher_library_9EE8A124_ios_min14.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792036072255CF8000000000 /* Build configuration list for PBXNativeTarget "_idx_bb_lancher_library_9EE8A124_ios_min14.0" */;
+			buildPhases = (
+				594C46540000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A98C2AACDC150100000000 /* PBXTargetDependency */,
+				32A98C2ADF13914900000000 /* PBXTargetDependency */,
+			);
+			name = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+			productName = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+			productReference = CA7E46A4BF88EB7400000000 /* lib_idx_bb_lancher_library_9EE8A124_ios_min14.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B34FBF0CF15885700000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 79203607170A6C4100000000 /* Build configuration list for PBXProject "bbstudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 6BA0FD1756D555A600000000 /* mainGroup */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F302C8ACDC150000000000 /* _bazel_clean_ */,
+				F45A4BB4DF13914800000000 /* _idx_Masonry_library_47E1CC18_ios_min14.0 */,
+				F45A4BB4FBFC777600000000 /* _idx_bb_lancher_library_9EE8A124_ios_min14.0 */,
+				F45A4BB41DF76B1E00000000 /* _idx_ios-app-bin_66EA071C_ios_min14.0 */,
+				F45A4BB49E2B10AE00000000 /* bbstudy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDE5DE8E6097D7D00000000 /* build //:bbstudy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "build //:bbstudy";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:bbstudy --bazel \"/Users/gao/Desktop/worker/loktar/bin/bazel/5.0.0/bazel-5.0.0-darwin-x86_64-py3\" --bazel_bin_path \"bazel-bin\" --verbose ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594C46540000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				2E0D1DB17C310E9D00000000 /* MASCompositeConstraint.m in Sources */,
+				2E0D1DB1D817367700000000 /* MASConstraint.m in Sources */,
+				2E0D1DB1BC8F924500000000 /* MASConstraintMaker.m in Sources */,
+				2E0D1DB1233F1FAD00000000 /* MASLayoutConstraint.m in Sources */,
+				2E0D1DB1C2D2B8DD00000000 /* MASViewAttribute.m in Sources */,
+				2E0D1DB1E7DBD1DE00000000 /* MASViewConstraint.m in Sources */,
+				2E0D1DB19ABF52BF00000000 /* NSArray+MASAdditions.m in Sources */,
+				2E0D1DB1B0B3D01000000000 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2E0D1DB180D36E9900000000 /* View+MASAdditions.m in Sources */,
+				2E0D1DB1D09709B700000000 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594C46540000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				2E0D1DB1B69EB4FA00000000 /* BBLauncherManager.m in Sources */,
+				2E0D1DB1140E1BD300000000 /* BBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594C46540000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				2E0D1DB15D6DAF0F00000000 /* BBAppDelegate.m in Sources */,
+				2E0D1DB1EB7A82F800000000 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A98C2AACDC150100000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F302C8ACDC150000000000 /* _bazel_clean_ */;
+			targetProxy = 3E404EC3ACDC150100000000 /* PBXContainerItemProxy */;
+		};
+		32A98C2ADF13914900000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45A4BB4DF13914800000000 /* _idx_Masonry_library_47E1CC18_ios_min14.0 */;
+			targetProxy = 3E404EC3DF13914900000000 /* PBXContainerItemProxy */;
+		};
+		32A98C2AFBFC777700000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45A4BB4FBFC777600000000 /* _idx_bb_lancher_library_9EE8A124_ios_min14.0 */;
+			targetProxy = 3E404EC3FBFC777700000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3ED04877286EF0E500585645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = Debug;
+		};
+		3ED04878286EF0E500585645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = Release;
+		};
+		3ED04879286EF0E500585645 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		3ED0487A286EF0E500585645 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _bazel_clean_;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		3ED0487B286EF0E500585645 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Masonry_library_47E1CC18_ios_min14.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		3ED0487C286EF0E500585645 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_Masonry_library_47E1CC18_ios_min14.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		3ED0487D286EF0E500585645 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		3ED0487E286EF0E500585645 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		3ED0487F286EF0E500585645 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "_idx_ios-app-bin_66EA071C_ios_min14.0";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		3ED04880286EF0E500585645 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "_idx_ios-app-bin_66EA071C_ios_min14.0";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		4AA89969AB0F5FBF00000000 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = bbstudy;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		4AA89969AB0F5FBF00000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//:bbstudy";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = bbstudy;
+				PRODUCT_NAME = bbstudy;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "";
+				TULSI_XCODE_VERSION = 13.4.1.13F100;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		4AA89969B76AE18700000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = bbstudy;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+		4AA89969B76AE18700000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/srcs/base/Masonry",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/base/Masonry",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_Masonry_library_47E1CC18_ios_min14.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		4AA89969B76AE18700000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/srcs/app/BBLancher/include",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/app/BBLancher/include",
+					"$(TULSI_WR)/srcs/base/Masonry",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/base/Masonry",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CFLAGS = (
+					"-iquote",
+					srcs/app/BBLancher,
+					"-iquote",
+					srcs/app/BBLancher/include/BBLancher,
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		4AA89969B76AE18700000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/srcs/app/BBLancher/include",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/app/BBLancher/include",
+					"$(TULSI_WR)/srcs/base/Masonry",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/base/Masonry",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = "_idx_ios-app-bin_66EA071C_ios_min14.0";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		4AA89969B76AE18700000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//:bbstudy";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bbstudy;
+				PRODUCT_NAME = bbstudy;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "";
+				TULSI_XCODE_VERSION = 13.4.1.13F100;
+			};
+			name = Release;
+		};
+		4AA89969D5DCE6D800000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(TULSI_EXECUTION_ROOT)",
+					"$(TULSI_WR)/bazel-bin",
+					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = bbstudy;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		4AA89969D5DCE6D800000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/srcs/base/Masonry",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/base/Masonry",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_Masonry_library_47E1CC18_ios_min14.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		4AA89969D5DCE6D800000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/srcs/app/BBLancher/include",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/app/BBLancher/include",
+					"$(TULSI_WR)/srcs/base/Masonry",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/base/Masonry",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CFLAGS = (
+					"-iquote",
+					srcs/app/BBLancher,
+					"-iquote",
+					srcs/app/BBLancher/include/BBLancher,
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		4AA89969D5DCE6D800000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_WR)/srcs/app/BBLancher/include",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/app/BBLancher/include",
+					"$(TULSI_WR)/srcs/base/Masonry",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/srcs/base/Masonry",
+					"$(TULSI_WR)/.",
+					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = "_idx_ios-app-bin_66EA071C_ios_min14.0";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		4AA89969D5DCE6D800000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//:bbstudy";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bbstudy;
+				PRODUCT_NAME = bbstudy;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "";
+				TULSI_XCODE_VERSION = 13.4.1.13F100;
+			};
+			name = Debug;
+		};
+		4AA89969DF66E5D600000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_EXECUTION_ROOT = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-execution-root";
+				TULSI_LLDBINIT_FILE = "$(PROJECT_FILE_PATH)/.tulsi/Utils/lldbinit";
+				TULSI_OUTPUT_BASE = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-output-base";
+				TULSI_PROJECT = bbstudy;
+				TULSI_VERSION = 0.20220209.88;
+				TULSI_WR = "$(SRCROOT)";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		4AA89969DF66E5D600000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//:bbstudy";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = bbstudy;
+				PRODUCT_NAME = bbstudy;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "";
+				TULSI_XCODE_VERSION = 13.4.1.13F100;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79203607170A6C4100000000 /* Build configuration list for PBXProject "bbstudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA89969D5DCE6D800000000 /* Debug */,
+				4AA89969B76AE18700000000 /* Release */,
+				4AA89969DF66E5D600000000 /* __TulsiTestRunner_Debug */,
+				4AA89969AB0F5FBF00000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792036071DA77BEB00000000 /* Build configuration list for PBXNativeTarget "_idx_ios-app-bin_66EA071C_ios_min14.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA89969D5DCE6D800000003 /* Debug */,
+				4AA89969B76AE18700000003 /* Release */,
+				3ED0487F286EF0E500585645 /* __TulsiTestRunner_Debug */,
+				3ED04880286EF0E500585645 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792036072255CF8000000000 /* Build configuration list for PBXNativeTarget "_idx_bb_lancher_library_9EE8A124_ios_min14.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA89969D5DCE6D800000002 /* Debug */,
+				4AA89969B76AE18700000002 /* Release */,
+				3ED0487D286EF0E500585645 /* __TulsiTestRunner_Debug */,
+				3ED0487E286EF0E500585645 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79203607261D8D9F00000000 /* Build configuration list for PBXNativeTarget "bbstudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA89969D5DCE6D800000004 /* Debug */,
+				4AA89969B76AE18700000004 /* Release */,
+				4AA89969DF66E5D600000001 /* __TulsiTestRunner_Debug */,
+				4AA89969AB0F5FBF00000001 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792036074D4859C800000000 /* Build configuration list for PBXNativeTarget "_idx_Masonry_library_47E1CC18_ios_min14.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA89969D5DCE6D800000001 /* Debug */,
+				4AA89969B76AE18700000001 /* Release */,
+				3ED0487B286EF0E500585645 /* __TulsiTestRunner_Debug */,
+				3ED0487C286EF0E500585645 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79203607BACF556700000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED04877286EF0E500585645 /* Debug */,
+				3ED04878286EF0E500585645 /* Release */,
+				3ED04879286EF0E500585645 /* __TulsiTestRunner_Debug */,
+				3ED0487A286EF0E500585645 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B34FBF0CF15885700000000 /* Project object */;
+}

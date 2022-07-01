@@ -1,0 +1,67 @@
+{
+  "additionalFilePaths" : [
+    "/BUILD",
+    "srcs/app/BBLancher/BUILD",
+    "srcs/base/BFC/BFCMeesageCenter/BUILD",
+    "srcs/base/BFC/BFCNetwork/BUILD",
+    "srcs/base/BFC/BFCUtils/BUILD",
+    "srcs/base/Masonry/BUILD"
+  ],
+  "buildTargets" : [
+    "//:bbstudy"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    }
+  },
+  "projectName" : "bbstudy",
+  "sourceFilters" : [
+    "bbstudy",
+    "srcs",
+    "srcs/app",
+    "srcs/app/BBLancher",
+    "srcs/app/BBLancher/BBLancher",
+    "srcs/app/BBLancher/include",
+    "srcs/app/BBLancher/include/BBLancher",
+    "srcs/base",
+    "srcs/base/Masonry",
+    "srcs/base/Masonry/Masonry"
+  ]
+}

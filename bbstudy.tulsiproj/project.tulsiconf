@@ -1,0 +1,17 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "",
+    "srcs/app/BBLancher",
+    "srcs/base/BFC/BFCMeesageCenter",
+    "srcs/base/BFC/BFCNetwork",
+    "srcs/base/BFC/BFCUtils",
+    "srcs/base/Masonry"
+  ],
+  "projectName" : "bbstudy",
+  "workspaceRoot" : ".."
+}

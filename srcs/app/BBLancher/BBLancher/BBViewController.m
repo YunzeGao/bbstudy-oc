@@ -1,4 +1,5 @@
 #import "BBViewController.h"
+#import <Masonry/Masonry.h>
 @interface BBViewController ()
 
 @end
@@ -7,9 +8,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor redColor]];
-    // self.title = @"bb study";
-    // [self setDefaultBackgroundColor];
+    [self.view setBackgroundColor:[UIColor clearColor]];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setTitle:@"点一下" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.offset(0);
+        make.size.mas_equalTo(CGSizeMake(80, 30));
+    }];
 }
 
 // 为UIViewController设置默认的背景色

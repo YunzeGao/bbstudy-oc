@@ -17,8 +17,7 @@ objc_library(
     name = "ios-app-bin",
     srcs = glob([
          "bbstudy/*.m",
+         "bbstudy/*.h",
     ]),
-    hdrs = glob([
-        "bbstudy/*.h",
-    ]),
+    deps = ["//srcs/app/BBLancher:bb_lancher_library",]
 )
