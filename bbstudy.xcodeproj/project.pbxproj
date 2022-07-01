@@ -21,6 +21,7 @@
 		2E0D1DB1D817367700000000 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4D817367700000000 /* MASConstraint.m */; };
 		2E0D1DB1E7DBD1DE00000000 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4E7DBD1DE00000000 /* MASViewConstraint.m */; };
 		2E0D1DB1EB7A82F800000000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7E46A4EB7A82F800000000 /* main.m */; };
+		3ED04883286EFD4E00585645 /* BBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED04882286EFD4E00585645 /* BBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3ED04881286EFD4C00585645 /* _idx_bb_lancher_library_9EE8A124_ios_min14.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_idx_bb_lancher_library_9EE8A124_ios_min14.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		3ED04882286EFD4E00585645 /* BBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BBView.swift; path = srcs/app/BBLancher/BBLancher/BBView.swift; sourceTree = "<group>"; };
 		CA7E46A4010C1AD200000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = bbstudy/Info.plist; sourceTree = "<group>"; };
 		CA7E46A404C877DD00000000 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "srcs/base/Masonry/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		CA7E46A40C563DA900000000 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = srcs/base/Masonry/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				CA7E46A4B69EB4FA00000000 /* BBLauncherManager.m */,
 				CA7E46A4E5B3251B00000000 /* BBViewController.h */,
 				CA7E46A4140E1BD300000000 /* BBViewController.m */,
+				3ED04882286EFD4E00585645 /* BBView.swift */,
+				3ED04881286EFD4C00585645 /* _idx_bb_lancher_library_9EE8A124_ios_min14.0-Bridging-Header.h */,
 			);
 			name = BBLancher;
 			sourceTree = "<group>";
@@ -407,6 +412,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					F45A4BB4FBFC777600000000 = {
+						LastSwiftMigration = 1340;
+					};
+				};
 			};
 			buildConfigurationList = 79203607170A6C4100000000 /* Build configuration list for PBXProject "bbstudy" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -470,6 +480,7 @@
 			buildActionMask = 0;
 			files = (
 				2E0D1DB1B69EB4FA00000000 /* BBLauncherManager.m in Sources */,
+				3ED04883286EFD4E00585645 /* BBView.swift in Sources */,
 				2E0D1DB1140E1BD300000000 /* BBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,14 +565,22 @@
 		3ED0487D286EF0E500585645 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "_idx_bb_lancher_library_9EE8A124_ios_min14.0-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
 		3ED0487E286EF0E500585645 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "_idx_bb_lancher_library_9EE8A124_ios_min14.0-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
@@ -719,6 +738,7 @@
 		4AA89969B76AE18700000002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -730,6 +750,7 @@
 					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = (
 					"-iquote",
 					srcs/app/BBLancher,
@@ -742,6 +763,8 @@
 				);
 				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "_idx_bb_lancher_library_9EE8A124_ios_min14.0-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Release;
@@ -860,6 +883,7 @@
 		4AA89969D5DCE6D800000002 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -871,6 +895,7 @@
 					"$(TULSI_EXECUTION_ROOT)/bazel-tulsi-includes/x/x/",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = (
 					"-iquote",
 					srcs/app/BBLancher,
@@ -883,6 +908,8 @@
 				);
 				PRODUCT_NAME = _idx_bb_lancher_library_9EE8A124_ios_min14.0;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "_idx_bb_lancher_library_9EE8A124_ios_min14.0-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
 			};
 			name = Debug;
